@@ -8,3 +8,8 @@ class Book(models.Model):
     author = models.CharField(max_length=100)
     description = models.TextField()
     created = models.DateTimeField()
+
+
+class Quote(models.Model):
+    text = models.TextField()
+
